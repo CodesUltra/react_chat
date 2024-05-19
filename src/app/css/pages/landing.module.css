@@ -44,6 +44,7 @@
       min-width: 120px;
       height: 40px;
       border-radius: 9999px;
+      text-align: center;
 
       &:hover {
         background-color: var(--text);

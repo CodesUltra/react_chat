@@ -60,9 +60,7 @@ export default function Home() {
               priority
             ></Image>
           </div>
-          <p>
-          real time chat bases in laravel
-          </p>
+          <p>real time chat bases in laravel</p>
           <div id="sessions" className={landing.sessions_banner}>
             <a className={landing.login} href="">
               log in
@@ -79,9 +77,15 @@ export default function Home() {
               <div className={landing.d2}></div>
               <div className={landing.d3}></div>
             </span>
-            <video autoPlay preload="true" muted loop src={'/assets/videos/chat-vid.mp4'}></video>
+            <video
+              autoPlay
+              preload="true"
+              muted
+              loop
+              src={"/assets/videos/chat-vid.mp4"}
+            ></video>
           </div>
-          </div>
+        </div>
       </main>
       <footer></footer>
     </div>
