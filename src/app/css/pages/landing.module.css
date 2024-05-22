@@ -192,10 +192,35 @@
         display: flex;
         width:100%;
       }
+      & > .techs{
+        color:white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin:20px;
+        & > .tech_buttons{
+          display: inherit;
+          gap:10px;
+        & > a:hover .tech_btn{
+          width:150px;
+        }
+        }
+      }
     }
   }
 }
 /* main */
+/* footer */
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top:solid 1px var(--secondary);
+}
+/* footer */
 
 @media only screen and (min-width: 63em) {
   /* header */
@@ -206,6 +231,11 @@
     }
     .ol {
       display: flex;
+      & li{
+        display: inherit;
+        text-align: center;
+        justify-content: center;
+      }
     }
     & > span {
       display: none;

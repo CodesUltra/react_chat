@@ -84,10 +84,59 @@ export default function Home() {
               loop
               src={"/assets/videos/chat-vid.mp4"}
             ></video>
+            <div className={landing.techs}>
+              <p>powered by</p>
+              <div className={landing.tech_buttons}>
+              <a href="">
+                <Image
+                  src="/assets/svg/banner/laravel.svg"
+                  alt="burger menu Logo"
+                  id="empticon"
+                  className={landing.tech_btn}
+                  width={120}
+                  height={30}
+                  priority
+                ></Image>
+              </a>
+              <a href="">
+                <Image
+                  src="/assets/svg/banner/aws.svg"
+                  alt="burger menu Logo"
+                  id="empticon"
+                  className={landing.tech_btn}
+                  width={120}
+                  height={30}
+                  priority
+                ></Image>
+              </a>
+              <a href="">
+                <Image
+                  src="/assets/svg/banner/tailwind.svg"
+                  alt="burger menu Logo"
+                  id="empticon"
+                  className={landing.tech_btn}
+                  width={120}
+                  height={30}
+                  priority
+                ></Image>
+              </a>
+              </div>
+            </div>
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer className={landing.footer}>
+        <Image
+          src="/assets/svg/logo.svg"
+          alt="burger menu Logo"
+          id="empticon"
+          className={landing.emoticon_2}
+          width={120}
+          height={30}
+          priority
+        ></Image>
+        <p>website created by hibran acosta @2024</p>
+      </footer>
     </div>
   );
 }
